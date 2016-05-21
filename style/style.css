@@ -2,3 +2,22 @@ body{
   background: #fff;
   color: #000;
 }
+nav{
+  position: fixed;
+  background: #000;
+  color: #fff;
+  right: 0;
+}
+nav ul{
+  padding: 30px;
+}
+nav li{
+  font-size: 1rem;
+  list-style: none;
+  color: #fff;
+  margin: 4px;
+}
+nav li a{
+  color: #fff;
+  text-decoration: none;
+}
