@@ -6,25 +6,44 @@ nav{
   position: fixed;
   background: #009966;
   color: #fff;
-  right: 0;
+  width: 100%;
 }
 nav ul{
-  padding: 30px;
+  margin-left: 80px;
+  display: flex;
 }
 nav li{
   font-size: 1rem;
   list-style: none;
-  margin: 4px;
+  margin: 20px;
 }
 nav li a{
   color: #fff;
   text-decoration: none;
 }
 .main-visual{
-  background: #fff url(take2.jpg) 0 0 no-repeat;
+  background: #fff url(../imgs/take2.jpg) 0 0 no-repeat;
   width: 100%;
   height: 650px;
   background-size: cover;
   margin-bottom: 32px;
-  padding-top: 60px;
+  padding-top: 80px;
+}
+.content{
+  background-color: #FFDEAD;
+  padding: 100px;
+}
+.text{
+  background-color: blue;
+  color: white;
+}
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.image {
+  padding: 40px;
+  background: #FFF;
+  border-radius: 9px;
 }
