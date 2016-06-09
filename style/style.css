@@ -47,3 +47,19 @@ nav li a{
   background: #FFF;
   border-radius: 9px;
 }
+.animetion1{
+  position: relative;
+  width: 300px;
+  float: left;
+}
+.animation1 .caption{
+  position: absolute;
+  padding: 20px;
+  background: #e63c35;
+  height: 200px;
+  width: 200px;
+}
+.animation1 .caption h2{
+  color: white;
+  font-size: 13px;
+}
