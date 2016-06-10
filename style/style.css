@@ -1,27 +1,27 @@
-body{
+body {
   background: #fff;
   color: #000;
 }
-nav{
+nav {
   position: fixed;
   background: #009966;
   color: #fff;
   width: 100%;
 }
-nav ul{
+nav ul {
   margin-left: 80px;
   display: flex;
 }
-nav li{
+nav li {
   font-size: 1rem;
   list-style: none;
   margin: 20px;
 }
-nav li a{
+nav li a {
   color: #fff;
   text-decoration: none;
 }
-.main-visual{
+.main-visual {
   background: #fff url(../imgs/take2.jpg) 0 0 no-repeat;
   width: 100%;
   height: 650px;
@@ -29,11 +29,11 @@ nav li a{
   margin-bottom: 32px;
   padding-top: 80px;
 }
-.content{
+.content {
   background-color: #FFDEAD;
   padding: 100px;
 }
-.text{
+.text {
   background-color: blue;
   color: white;
 }
@@ -47,19 +47,27 @@ nav li a{
   background: #FFF;
   border-radius: 9px;
 }
-.animetion1{
+.animation1 {
   position: relative;
   width: 300px;
-  float: left;
+  height: 200px;
+  overflow: hidden;
 }
-.animation1 .caption{
+.animation1 .caption {
   position: absolute;
+  top: 0;
   padding: 20px;
   background: #e63c35;
+  width: 300px;
   height: 200px;
-  width: 200px;
+  box-sizing: border-box;
+  transition: 1s;
+  opacity: 0;
 }
-.animation1 .caption h2{
+.animation1 .caption h2 {
   color: white;
   font-size: 13px;
+}
+.animation1:hover .caption {
+  opacity: 1;
 }
