@@ -47,19 +47,27 @@ nav li a{
   background: #FFF;
   border-radius: 9px;
 }
-.animetion1{
+.animation1{
   position: relative;
   width: 300px;
-  float: left;
+  height: 200px;
+  overflow: hidden;
 }
 .animation1 .caption{
   position: absolute;
+  top: 0;
   padding: 20px;
   background: #e63c35;
   height: 200px;
-  width: 200px;
+  width: 300px;
+  box-sizing: border-box;
+  transition: 1s;
+  opacity: 0;
 }
 .animation1 .caption h2{
   color: white;
   font-size: 13px;
+}
+.animation1:hover .caption{
+  opacity: 1;
 }
