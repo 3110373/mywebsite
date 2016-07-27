@@ -84,3 +84,8 @@ nav li a{
 .content a {
   color: white;
 }
+.content3 {
+  background-color: #90C2E7;
+  color: white;
+  padding: 500px;
+}
