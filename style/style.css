@@ -9,10 +9,15 @@ body{
   color: #fff;
   width: 100%;
   z-index: 2;
+  top: 0;
 }
 #header h1{
   display: inline-block;
   margin-left: 60px;
+}
+#header a {
+  color:#fff;
+  text-decoration: none;
 }
 nav ul{
   margin-left: 80px;
@@ -39,7 +44,6 @@ nav li a{
   background-color: #62B6CB;
   padding: 100px;
 }
-
 .image-row {
   display: flex;
   justify-content: space-between;
@@ -78,14 +82,40 @@ nav li a{
   font-size: 14px;
 }
 .content2{
-  background: red;
+  background: #34ABDE;
   padding: 100px;
 }
-.content a {
-  color: white;
+.caption a {
+  color: #FFF;
 }
 .content3 {
+  height: calc(100vh - 100px);
+  padding-top: 100px;
   background-color: #90C2E7;
-  color: white;
-  padding: 500px;
+  color: #FFF;
+}
+
+.content3 h1{
+  background: #90C2E7;
+  -webkit-margin-before: 0;
+-webkit-margin-after: 0;
+margin-left: 25px;
+}
+.box {
+  width: 400px;
+  height: 400px;
+  background: #000;
+  margin: 20px;
+}
+.content0 {
+  background: #fff;
+  color: #336699;
+  margin-left: 20px;
+}
+.content3 h2 {
+  margin-left: 25px;
+}
+.content3 img {
+  margin-left: 15px;
+  margin-top: 10px;
 }
